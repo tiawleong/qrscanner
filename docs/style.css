@@ -35,9 +35,7 @@ body, html {
 .sidebar li {
   line-height: 175%;
   white-space: nowrap;
-  overflow: hidden;
-  text-wrap: none;
-  text-overflow: ellipsis;
+  text-wrap: true;
 }
 .cameras ul {
   padding: 15px 20px;
